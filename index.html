@@ -1,0 +1,51 @@
+<!--index.html-->
+
+<head>
+    <title>change this title later</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your external CSS file -->
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
+
+    <style>
+        #map {height: 95vh;}
+    </style>
+    
+</head> <!--end of link one for leaflet (this has to be before js, idk why but documentation said)-->
+
+
+<body>
+
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <!--link two for the leaflet reference -->
+    <link rel="stylesheet" href="Leaflet.markercluster-1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="Leaflet.markercluster-1.4.1/dist/MarkerCluster.Default.css" />
+
+    <script src="Leaflet.markercluster-1.4.1/dist/leaflet.markercluster-src.js"></script>
+    <script src="Leaflet.markercluster-1.4.1/src/MarkerCluster.js"></script>
+    <script src="script.js"></script> <!-- Link to the JS file, basically all the code in it is being called here -->
+
+
+    <!--below is the button for the legend-->
+    <!--IVE COMMENTED THE BUTTON FOR NOW-->
+   <!--  
+    
+   <button onclick="myFunction()">Click me</button>
+    <div id="demo"></div>
+
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Hello World";
+        }
+    </script> 
+    
+    -->
+
+</body>
+</html>
+
+

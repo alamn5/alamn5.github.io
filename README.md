@@ -2,7 +2,7 @@
 
 Simply a map of restaurants I like near McMaster & Downtown Hamilton.
 
-**Link to project:  https://alamn5.github.io/**
+**Link to project: https://alamn5.github.io/map/**
 
 
 

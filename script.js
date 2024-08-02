@@ -10,8 +10,8 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 var Ricon = L.icon({
   iconUrl: 'images/ricon.png',
   iconSize: [36, 41], //size of the icon (literally length width)
-  iconAnchor: [19, 38], //anchor point of the icon (idk what this means tbh, but the icons move with zoom if changed)
-  popupAnchor: [0, 0] // Point from which the popup should open relative to the iconAnchor (idk this either)
+  iconAnchor: [19, 38], //anchor point of the icon
+  popupAnchor: [0, 0] // Point from which the popup should open relative to the iconAnchor 
 })
 
 var Ricon_Half = L.icon({
@@ -136,57 +136,6 @@ var jacksonArray = [Popeyes, Kajun, Everest, KFC, Fit4life, Kenzo]; //adding all
 var jacksonLayerGroup = L.layerGroup(jacksonArray); //putting that array in a layer group
 jackson.addLayer(jacksonLayerGroup); //adding the layer to our cluster
 map.addLayer(jackson); //printing the cluster on the map
-
-//https://leaflet.github.io/Leaflet.markercluster/example/marker-clustering-realworld.388.html
-//Leaflet.markercluster
-//OverlappingMarkerSpiderfier-Leaflet
-
-//empire✅
-//vida ✅
-//tomah ✅ 
-//burrito bandidos✅
-//popeyes ✅
-//boardwalk✅ 
-//shawarma royale ✅
-//big caesar shawarma ✅
-//red swan pizza ✅
-//dosa place ✅
-//lazeez✅
-//everest ✅
-//kajun ✅
-//kfc✅
-//fit4life✅
-//la luna 43.25940514503133, -79.8784846480909
-//mandarin
-//pur and simple ew what
-//pancake house (beside mac)
-//nandos
-//misa
-//temmys
-
-//not halal but has halal options
-//august 8 sushi✅
-//cowabunga pizza ✅
-//sapporo ✅
-//teahut✅
-//williams
-//kenzo ✅
-//tondou ✅
-//lava pizza ✅
-//jimmy the greek idk
-
-
-
-//future ideas:
-// toggle restaruant checklist? where you can turn markers on and off✅
-// ^ also want one maybe for chains like just tims 
-
-//checklist that can highlight a restaurant or maybe search function
-//maybe a select all (or deselects all) button
-//being able to close and open the list
-//organize categories (like pizza, shawarma, boba, dessert)
-
-
 
 //function to add custom control for toggleable list
 function addCustomControl(){ /////////////////////////////////////////////////////////////////////////////////////////////////////
